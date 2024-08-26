@@ -1,0 +1,61 @@
+:root {
+    /* Colors */
+    --primary-font-color: #FFFFFF;
+    --secondary-font-color: #0A3853;
+    --third-font-color: #141414;
+    --fourth-font-color: #000000;
+    --fifth-font-color: #26C7EA;
+    --sixth-font-color: #94CFFF;
+    --seventh-font-color: #26C6EA;
+    --button-bg-color: #0B0E66;
+    --button-border-color: #26C7EA;
+    --gradient-color-first: #2B4A61;
+    --gradient-color-second: #2a4860de;
+    --cards-bg: #ffffffb3;
+     /* Fonts */
+    --font-family: "Inter", sans-serif;
+    --second-family: "HeadlandOne";
+    --third-family: "Hammersmith One", sans-serif;
+}
+
+.box {
+    display: flex;
+    width: 36px;
+    height: 20px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.switcher {
+    width: 30px;
+    height: 0px;
+}
+.menu-link {
+    font-family: var(--font-family);
+    font-size: 20px;
+    text-align: center;
+}
+.current-page {
+    font-weight: 600;
+    color: var(--sixth-font-color);
+}
+.other-pages {
+    font-weight: 300;
+    color: var(--primary-font-color);
+}
+.log-in-button {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: var(--seventh-font-color);
+}
+.label {
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: var(--primary-font-color);
+}
