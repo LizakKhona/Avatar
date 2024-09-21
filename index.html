@@ -13,59 +13,62 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container flex">
         <nav class="nav">
             <a href="/" class="logo">
                 <img class="logo-img" src="./images/avatar-logo.png" alt="The logo" width="186" height="72">
             </a>
             <ul class="menu">
                 <li class="menu-item">
-                    <a class="menu-link current-page" href="#">Main</a>
+                    <a class="menu-link" href="#">Main</a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link other-pages" href="#">About us</a>
+                    <a class="menu-link" href="#">About us</a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link other-pages" href="#">Contacts</a>
+                    <a class="menu-link" href="#">Contacts</a>
                 </li>
             </ul>
         </nav>
         <button class="log-in-button" type="button">Log In</button>
         </div>
-        <form name="language-choice">
-            <label class="label">
-                ENG
-                <div class="box">
-                <input class="switcher" type="range" min="0" max="1">
-                </div>             
-                UA
-            </label>
-        </form>
+        <div class="box">
+            <span class="language">ENG</span>
+            <img class="switcher-img" src="./images/switcher.png" alt="The switcher for choosing language">
+            <span class="language">UA</span>
+        </div>
     </header>
     <main class="main">
         <section class="section hero-section">
-            <div class="container">
+            <div class="container alignment">
             <h1 class="heading">The avatar's clan</h1>
             <article class="article">
                 <h2 class="heading">Appeal</h2>
-                <p class="navi-text">Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä hapxì. Säwem nìayoeng!</p>
-                <p class="english-text">I'm speaking with the warrior! Your spirit goes with Eywa, your body stays behind to become part of the People. Fight with us!</p>
+                <pre class="article-text white-arrow">Oe perlltxe hu tsamsiyu!
+Ngari hu Eywa salew tirea, 
+tokx 'ì'awn slu Na'viyä hapxì.
+Säwem nìayoeng!</pre>
+                <pre class="article-text">I'm speaking with the warrior!
+Your spirit goes with Eywa, 
+your body stays behind to 
+become part of the People.
+Fight with us!</pre>
                 <button class="join-button" type="button">Join clan</button>
             </article>
             <ul class="media">
                 <li class="media-item">
-                    <a class="media-link" href="#" target="_blank">
-                        <img src="./images/instagram.png" alt="Instagram" width="30" height="30">
+                    <a class="media-link" href="https://www.instagram.com/avatar?igsh=M3I1OHhpbm5lMmc2" target="_blank">
+                        <img class="media-img" src="./images/instagram.png" alt="Instagram" width="30" height="30">
                     </a>
                 </li>
                 <li class="media-item">
-                    <a class="media-link" href="#" target="_blank">
-                        <img src="./images/twitter.png" alt="Twitter" width="30" height="30">
+                    <a class="media-link" href="https://twitter.com/officialavatar" target="_blank">
+                        <img class="media-img" src="./images/twitter.png" alt="Twitter" width="34" height="30">
                     </a>
                 </li>
                 <li class="media-item">
-                    <a class="media-link" href="#" target="_blank">
-                        <img src="./images/youtube.png" alt="Youtube" width="30" height="30">
+                    <a class="media-link" href="https://www.youtube.com/user/officialavatar" target="_blank">
+                        <img class="media-img" src="./images/youtube.png" alt="Youtube" width="50" height="30">
                     </a>
                 </li>
             </ul>
@@ -75,48 +78,48 @@
             <div class="container">
             <h2 class="heading">Quote</h2>
             <p class="quote-text first-quote">“a lot of people from the sky are gonna come. they're gonna come like a rain that never ends.”</p>
-            <p class="quote-autor first-autor">jake sully</p>
+            <p class="quote-author first-author">jake sully</p>
             </div>
         </section>
         <section class="section trailer">
             <div class="container">
             <h2 class="heading">Movie trailer</h2>
-            <button class="trailer-button" type="button">watch trailer</button>
+            <a class="trailer-link" href="https://www.youtube.com/watch?v=d9MyW72ELq0" target="_blank">watch trailer</a>
             </div>
         </section>
         <section class="section quote">
             <div class="container">
             <h2 class="heading">Quote</h2>
             <p class="quote-text second-quote">“all energy is only borrowed, and one day you have to give it back.”</p>
-            <p class="quote-autor second-autor">jake sully</p>
+            <p class="quote-author second-author">jake sully</p>
             </div>
         </section>
-        <section class="section language">
+        <section class="section navi-language">
             <div class="container">
             <h2 class="title">Let's learn the Na'vi language</h2>
             <ul class="cards">
                 <li class="cards-item">
-                    <p class="english">Hello</p>
+                    <p class="english left-arrow">Hello</p>
                     <p class="navi">Kaltxì</p>
                 </li>
                 <li class="cards-item">
-                    <p class="english">How Are You?</p>
+                    <p class="english little-bird">How Are You?</p>
                     <p class="navi">Ngaru lu fpom srak?</p>
                 </li>
                 <li class="cards-item">
-                    <p class="english">I'm Well</p>
+                    <p class="english right-arrow">I'm Well</p>
                     <p class="navi">Lu fpom</p>
                 </li>
                 <li class="cards-item">
-                    <p class="english">Thank you</p>
+                    <p class="english left-arrow">Thank you</p>
                     <p class="navi">Irayo si</p>
                 </li>
                 <li class="cards-item">
-                    <p class="english">I See You</p>
+                    <p class="english little-bird">I See You</p>
                     <p class="navi">Oel ngati kameie</p>
                 </li>
                 <li class="cards-item">
-                    <p class="english">Follow me!</p>
+                    <p class="english right-arrow">Follow me!</p>
                     <p class="navi">Nong oet!</p>
                 </li>
             </ul>
@@ -126,23 +129,23 @@
             <div class="container">
             <h2 class="heading">Quote</h2>
             <p class="quote-text third-quote">“our great mother does not take sides, she protects only the balance of life.”</p>
-            <p class="quote-autor third-autor">neytiri</p>
+            <p class="quote-author third-author">neytiri</p>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-        <a href="/" class="logo">
+        <div class="container line">
+        <a href="/" class="logo white-line">
             <img class="logo-img" src="./images/avatar-logo.png" alt="The logo" width="183" height="70">
         </a>
         <address class="address">
             <ul class="contacts">
                 <li class="contacts-item">
-                    <p class="contacts-text">Q&A E-mail</p>
+                    <p class="contacts-text long-line">Q&A E-mail</p>
                     <a class="contacts-email" href="mailto:avatartwowqa@gmail.com">avatartwowqa@gmail.com</a>
                 </li>
                 <li class="contacts-item">
-                    <p class="contacts-text">Cooperation E-mail</p>
+                    <p class="contacts-text short-line">Cooperation E-mail</p>
                     <a class="contacts-email" href="mailto:avatartwowcoop@gmail.com">avatartwowcoop@gmail.com</a>
                 </li>
             </ul>

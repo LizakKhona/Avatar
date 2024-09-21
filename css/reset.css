@@ -3,7 +3,7 @@ ul {
     list-style: none;
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, pre {
     margin: 0;
 }
 a {
@@ -11,4 +11,7 @@ a {
 }
 .heading {
     display: none;
+}
+button {
+    border-radius: 0;
 }
